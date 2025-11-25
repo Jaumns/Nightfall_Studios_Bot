@@ -1,10 +1,10 @@
-# Nightfall Bot (Discord) 🌙
+# 🌙 Nightfall Bot (Discord)
 
-**A mystical, interactive Discord bot designed to enchant your server with fun commands, moderation tools, and magical features.**
+**A mystical, interactive Discord bot designed to enchant your server with fun commands, moderation tools, magical features, and real-time game updates.**
 
 ---
 
-## Table of Contents
+## 📜 Table of Contents
 
 * [Overview](#overview)
 * [Features](#features)
@@ -17,26 +17,31 @@
 
 ---
 
-## Overview
+## ✨ Overview
 
-**Nightfall Bot (Discord)** is built to bring a touch of magic to your community.
-It leverages **[your tech stack, e.g., Node.js & Discord.js]** to provide interactive commands, fun utilities, and automation tools.
+**Nightfall Bot (Discord)** brings a touch of magic to your community.
+Built with **Node.js & Discord.js**, it provides interactive commands, fun utilities, automation tools, and real-time game updates for communities and gamers.
 
-Whether you’re running a gaming server, a community hub, or a role-play server, Nightfall Bot adds engagement, moderation, and mystical charm.
-
----
-
-## Features
-
-* **Magic-themed commands:** Unique, mystical interactions for your server.
-* **Moderation tools:** Manage roles, welcome users, and auto-moderate easily.
-* **Fun & interactive:** Games, polls, quotes, and community engagement.
-* **Customizable:** Set your own prefix, activity status, and server settings.
-* **Extendable:** Easily add new commands or modules.
+Whether you’re running a gaming server, a community hub, or a role-play server, Nightfall Bot adds **engagement, moderation, mystical charm, and live gaming news**.
 
 ---
 
-## Installation
+## 🛠 Features
+
+* **🔮 Magic-themed commands:** Unique, mystical interactions like `!arcanequote` and `!castspell`.
+* **🛡 Moderation tools:** Kick users, manage roles, auto-moderate, and welcome new members.
+* **🎮 Fun & interactive:** Polls, games, quotes, and role-play utilities.
+* **🎵 Music commands:** Play, skip, queue, stop, and manage music in voice channels.
+* **📊 Ranking system:** Track levels, XP, and user progression in the server.
+* **🎯 Hunt Showdown Updates:** Real-time game news, patch notes, images, and active promo codes via `!huntupdates`.
+* **🌙 Welcome & Goodbye Messages:** Personalized embeds for new members and departing users.
+* **🎛 Role Select Menu:** Let users assign themselves roles via an interactive menu on entry.
+* **⚙️ Customizable:** Set prefix, activity status, welcome channels, moderation roles, and more.
+* **🧩 Extendable:** Easily add new commands or modules.
+
+---
+
+## 💻 Installation
 
 1. Clone the repository:
 
@@ -50,7 +55,7 @@ git clone https://github.com/Jaumns/NIGHTFALL.git
 cd NIGHTFALL
 ```
 
-3. Install dependencies (Node.js example):
+3. Install dependencies:
 
 ```bash
 npm install
@@ -65,7 +70,7 @@ PREFIX=!
 
 ---
 
-## Usage
+## 🚀 Usage
 
 Start the bot:
 
@@ -75,11 +80,11 @@ npm start
 
 Invite Nightfall Bot to your Discord server using an OAuth2 invite link with the proper permissions.
 
-Use your configured prefix (e.g., `!`) to run commands in the server.
+Use your configured prefix (e.g., `!`) to run commands in your server.
 
 ---
 
-## Configuration
+## ⚙️ Configuration
 
 Configure the bot via a `.env` file or `config.json`:
 
@@ -89,6 +94,7 @@ Configure the bot via a `.env` file or `config.json`:
   "ownerID": "YOUR_DISCORD_ID",
   "activity": "Exploring the night skies",
   "welcomeChannel": "welcome",
+  "goodbyeChannel": "goodbye",
   "moderationRoles": ["Mod", "Admin"]
 }
 ```
@@ -97,24 +103,31 @@ Configure the bot via a `.env` file or `config.json`:
 * **ownerID:** Bot owner’s Discord ID (admin-only commands)
 * **activity:** Status message displayed by the bot
 * **welcomeChannel:** Channel for welcome messages
+* **goodbyeChannel:** Channel for farewell messages
 * **moderationRoles:** Roles allowed to moderate users
 
 ---
 
-## Commands
+## 📝 Commands
 
 Examples of Nightfall Bot commands:
 
-* `!arcanequote` → Returns a magical quote
-* `!castspell @user` → Enchants a user with a themed message
-* `!kick @user [reason]` → Moderation: kicks a user
-* `!poll "Which game tonight?" "Yes" "No"` → Creates a poll in your server
+* `!arcanequote` → Returns a magical quote ✨
+* `!castspell @user` → Enchants a user with a themed message 🪄
+* `!kick @user [reason]` → Moderation: kicks a user 🛡️
+* `!poll "Which game tonight?" "Yes" "No"` → Creates a poll in your server 📊
+* `!play [song]` → Plays music in a voice channel 🎵
+* `!skip` → Skips current song ⏭️
+* `!queue` → Shows song queue 📜
+* `!stop` → Stops music playback ⏹️
+* `!rank @user` → Shows user level and XP 🎯
+* `!huntupdates` → Displays the latest Hunt Showdown updates, images, and active promo codes 🔥
 
-*(Add all your commands here with usage descriptions.)*
+*(Add all other commands here with usage descriptions.)*
 
 ---
 
-## Contributing
+## 🤝 Contributing
 
 Contributions are welcome! To contribute:
 
@@ -126,6 +139,6 @@ Contributions are welcome! To contribute:
 
 ---
 
-## License
+## 📜 License
 
 This project is licensed under the [MIT License](LICENSE).
